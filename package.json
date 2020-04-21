@@ -2,7 +2,7 @@
   "name": "hit-the-course",
   "version": "1.0.0",
   "description": "Drum your way through",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
