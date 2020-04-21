@@ -9,4 +9,6 @@ app.get('*', function(req, res) {
 });
 app.use('/static', express.static('public'))
 app.use('/static', express.static(path.join(__dirname, 'public')))
-app.listen(8080);
+app.listen(process.env.PORT || 8080, function() {
+    console.log('Server listening on port 8080');
+});
